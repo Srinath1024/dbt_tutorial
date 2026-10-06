@@ -1,0 +1,11 @@
+srnth_dbt_youtube:
+  outputs:
+    dev:
+      catalog: dbt_tutorial_dev
+      host: dbc-4e22323b-4a01.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/2ddd66b000411433
+      schema: default
+      threads: 1
+      token: dapif541ea41e6aa7e39aff0ea49fbaa12ad
+      type: databricks
+  target: dev
